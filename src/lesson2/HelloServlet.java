@@ -13,6 +13,7 @@ public class HelloServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        req.setAttribute("name", "ssss");
         getServletContext().getRequestDispatcher("/lesson2/hello.jsp").forward(req, resp);
     }
 
