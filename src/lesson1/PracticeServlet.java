@@ -1,3 +1,5 @@
+package lesson1;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -8,7 +10,7 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-@WebServlet(urlPatterns = "/practice")
+@WebServlet(urlPatterns = "/lesson1/practice")
 public class PracticeServlet extends HttpServlet {
 
     String[] names = {"Max", "Alice", "Bob"};
